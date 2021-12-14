@@ -1,4 +1,4 @@
 # Repositório do desafio de Projeto sobre Git/GitHub da DIO
-Desafio de Projeto sobre Git/GitHub
+Repositório criado com fins didáticos para Desafio de Projeto
 
 [Sintaxe Básica de Markdown para consulta](https://www.markdownguide.org/basic-syntax/)
