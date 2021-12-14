@@ -42,5 +42,5 @@ git config --list: comando informa todas as configurações realizadas no git
 git config --global --unset + propriedadeQueDesejaAlterar : comando remove as propriedades desejadas para nova configuração
 git remote add origin +linkDoRepositorioGItHub: comando para criação de repositório remoto.
 git remote -v : comando mostra em qual repositório estou conectado.
+git remote set-url origin novaURL : Este comando deve ser realizado ao realizar a troca do nome do repositório no GitHub, o mesmo remete o apontamento do Git para o repositório que obteve o novo nome
 ----------------------------------------------------------------------------------------------------------------
-
