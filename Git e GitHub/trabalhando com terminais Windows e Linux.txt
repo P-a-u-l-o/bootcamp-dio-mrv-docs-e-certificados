@@ -1,0 +1,56 @@
+TRABALHANDO COM TERMINAIS WINDOWS E LINUX 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+GUI = Graphical User Interface
+CLI = Command Linte Interface
+-----------------------------------------------------------------------------------------------------------------------------------------------
+COMANDOS WINDOWS
+
+cd /: para Windows acessa raiz do disco C
+
+cd..: retrocede para diretório anterior
+
+mkdir:comando utilizado para criação de diretório
+
+echo + nomeDoArquivo > nomeDoArquivo.extensão      Comando para criação de um arquivo dentro de um diretório
+
+del + nomeDoDiretório: deleta os arquivos dentro de um diretório
+ 
+rmdir + nomeDoDiretório /S /Q: (Remove directory) Deleta definitifamente um diretório e todos os subdiretórios inclusos nele
+
+A tecla TAB completa a nomenclatura das pastas dentro do terminal
+
+dir:lista todos os diretórios dentro do diretório principal acessado
+
+cd+nomeDiretório: do diretório para acessar um diretório desejado
+
+cls:limpa terminal
+-----------------------------------------------------------------------------------------------------------------------------------------------
+COMANDOS LINUX
+
+cd /: para Linux acessa a pasta root/raiz simbolizada por # no sistema
+
+cd..: retrocede para diretório anterior
+
+mkdir:comando utilizado para criação de diretório
+
+echo + nomeDoArquivo > nomeDoArquivo.extensão      Comando para criação de um arquivo dentro de um diretório
+
+del + nomeDoDiretório: deleta os arquivos dentro de um diretório
+
+rm + nomeDoArquivo: Deleta definitivamente o arquivo de dentro de um diretório (obs: o comando deve ser utilizado dentro do diretório onde encontra-se o arquivo a ser deletado.)
+
+rm -rf + nomeDoDiretório: Deleta definitifamente um diretório e todos os subdiretórios inclusos nele
+
+sudo su: solicita permissão de usuário admin no SO
+
+ls:lista todos os diretórios dentro do diretório principal acessado
+
+cd + nomeDiretório: do diretório para acessar um diretório desejado
+
+clear:limpa terminal
+
+ls -a: mostra arquivos ocultos no diretório
+
+mv nomeDoArquivo.extensão ./pastaParaOndeDesejaMover/
+-----------------------------------------------------------------------------------------------------------------------------------------------
+

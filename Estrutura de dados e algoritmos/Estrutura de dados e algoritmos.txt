@@ -1,0 +1,104 @@
+TIPOS DE ESTRUTURAS DE DADOS
+
+VETORES ou ARRAY
+
+São estruturas de dados simples que podem nos auxiliar quando há necessidade da utilização de muitas 
+variáveis do mesmo tipo em um algoritmo.
+
+EXEMPLO
+
+Variáveis do mesmo tipo sendo declaradas:
+
+var nome = "Pedro";
+var nome1 = "Mônica";
+var nome2 = "Francisco";
+
+Array com variável de mesmo tipo sendo declarado
+
+var nomes[] = {"Pedro","Mônica","Francisco"};
+
+MATRIZES ou ARRAY MULTIDIMENSIONAL
+
+É um vetor de vetores, possui duas ou mais dimensões(linhas e colunas),
+onde .
+
+REGISTRO
+
+Estruturas de dados que permite armazenamento de dados de diversos tipos
+Exemplo: Cliente (CPF, NOME, Endereço, Contato).
+Em OO um registro seria um Objeto.
+
+Toda estrutuda de registro tem um nome e seus campos podem ser acessados por meio do uso do operador ponto (.)
+para acessar
+
+LISTAS
+
+Armazena dados de determinado tipo em uma ordem específica.
+A diferença entre listas e arrays é que os arrays possuem tamanho fixo
+e as listas possuem tamanhos que podem ser ajustados.
+
+Existem dois tipos de listas sendo elas:
+
+LIGADAS
+
+Existem nós onde cada um dos nós conhece o valor que está sendo armazenado em seu interior,
+além de conhecer o elemento posterior a ele, por isso ela é chamada de lista ligada.
+
+DUPLAMENTE LIGADAS
+
+A diferença entre as listas ligadas e duplamente ligadas é que a lista duplamente ligada
+é bidirecional, sendo possível a inserção de elementos antes ou depois assim possibilitando navegação
+nesse tipo de lista tanto progressivamente quanto regressivamente.
+
+PILHAS
+
+É uma estrutura de dados que serve como uma coleção de elementos, e permite o acesso somente
+a um item de dados armazenado, somente um item pode ser lido ou removido por vez.
+
+TIPOS DE PILHAS / STACKS
+
+Last in First Out(LIFO) / Último que Entra Primeiro que Sai (UEPS)
+
+O primeiro elemento a ser retirado da pilha é o último elemento que tiver sido inserido nela.
+
+First in First Out (FIFO) / Primeiro que Entra Primeiro que Sai (PEPS)
+
+O primeiro elemento a ser retirado é o primeiro elemento que foi inserido.
+
+FILAS
+
+As filas admitem tanto remoção quando inserção de novos elementos a sua base sujeito à seguinte regra de operação:
+
+O elemento removido é o que está na estrutura há mais tempo,ou seja,o primeiro objeto inserido na fila é também 
+o primeiro a ser removido seguindo o conceito de FIFO.
+
+ÁRVORE
+
+Estrutura organizada onde os elementos são colocadas de forma hierárquica, onde existe um elemento que fica no topo
+da árvore, chamado de raiz e existem os elementos subordinados a ele, que sào chamados de nós ou folhas.
+
+TABELAS HASH
+
+Conhecida também como estruturas de dispersão ou espalhamento é uma estrutura de dados especial, que associa chaves
+de pesquisa a valores.
+É uma generalização da ideia de array, porém utiliza uma função denominada hashing para espalhar os elementos,
+fazendo com que os mesmos fiquem de forma não ordenada dentro do "array" que define a tabela.
+
+A tabela hash permite a associação de "valores" a "chaves" onde:
+
+VALORES: É a posiçãp ou índice onde o elemento se encontra
+
+CHAVE: É parte da informaçào que compões o elemento a ser manipulado.
+
+Espalhar facilita a busca na estrutura de dados, pois a partir de uma chave podemos acessar de forma rápida uma posição
+do "array".
+
+GRAFOS
+
+São estruturas que permitem programar a relaçào entre objetos
+
+OBJETOS
+São ps vértices ou "nós"do grafo
+
+RELACIONAMENTOS
+São as arestas

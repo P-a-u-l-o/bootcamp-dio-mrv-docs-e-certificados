@@ -1,0 +1,46 @@
+GIT E GITHUB
+-----------------------------------------------------------------------------------------------------------------------------------------------
+SHA1 = Secure Hash Algorithm é um conjunto de funções hash criptográficas projetadas pela nasa.
+O SHA1 é uma forma curta de representar um arquivo qualquer através de encriptação que gera um conjunto de caracteres identificador de 40 dígitos único, onde a alteração de qualquer caractere implica na alteração dessa chave, da mesma forma que se os mesmos caracteres forem colocados iguais novamente será gerada a mesma chave anterior antes mudança do arquivo.
+
+
+openssl sha1 + nomeDoArquivo.extensão gera um arquivo encriptado no formato SHA1
+-----------------------------------------------------------------------------------------------------------------------------------------------
+BLOBS - São os objetos/blocos básicos de composição que contém metadados do objeto sendo eles: tipo de objeto, o tamanho da string ou arquivo e seu conteúdo.
+
+TREES - Pode armazenar e apontar para tipos de blobs diferentes podendo apontar também para outras trees e commits, é responsável pela estrutura de localização dos arquivos.
+
+COMMITS - Objeto que aponta para tree, aponta para um parente(último commit realizado antes dele), aponta para um autor, aponta para uma mensagem que dá sentido ao arquivo e possui um timestamp (é um carimbo de tempo "data, hora" de sua criação).
+-----------------------------------------------------------------------------------------------------------------------------------------------
+CONFIGURAÇÃO DE CHAVE SSH
+
+Necessária a criação desta chave apra realizar a conexão da nossa máquina com o nosso GitHub
+ 
+Comando para a criação da chave: ssh-keygen -t ed25519 -C + emailDaContaNoGithub
+ 
+Comando para pegar o valor da chave ssh: cat id_ed25519.pub
+
+Ir até o Github caminho: settings > SSH and GPG keys > colocar um título e colar  o valor da chave no campo indicado.
+
+Comando para validar a chave privada de descriptação: ssd-add id_ed25519
+----------------------------------------------------------------------------------------------------------------
+TOKEN
+
+Para gerar um token seguir o caminho no Github: settings > developer settings > Personal accsess tokens > generate new token.
+
+Podemos configurar ou não uma tempo de expiração para o nosso token.
+Após ter realizado as configurações anteriores marcar a opção "repo" e finalizar o processo.
+A chave gerada dever ser copiada pois não será possível acessar a mesma novamente de forma alguma.
+
+----------------------------------------------------------------------------------------------------------------
+CONFIGURAÇÃO DE PRIMEIRO ACESSO
+
+git config --global user.email "emailDoUsuário"
+git config --global user.name "nomeDoUsuario"
+----------------------------------------------------------------------------------------------------------------
+git config --list: comando informa todas as configurações realizadas no git
+git config --global --unset + propriedadeQueDesejaAlterar : comando remove as propriedades desejadas para nova configuração
+git remote add origin +linkDoRepositorioGItHub: comando para criação de repositório remoto.
+git remote -v : comando mostra em qual repositório estou conectado.
+----------------------------------------------------------------------------------------------------------------
+
